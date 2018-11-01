@@ -37,6 +37,16 @@ img {
 
         /* Always set the map height explicitly to define the size of the div
          * element that contains the map. */
+<<<<<<< HEAD
+        #map {
+            
+          position: relative;
+          float: right;
+          overflow: hidden;
+          height: 40%;
+          width: 40%
+        }
+=======
         /* #map {
             position: relative;
             float: right;
@@ -47,6 +57,7 @@ img {
           border: black solid 3px;
          
         } */
+>>>>>>> cf73bc836b1c11c669640061ab7a804f0b9b1eb2
         /* Optional: Makes the sample page fill the window. */
         html, body {
           height: 100%;
@@ -87,6 +98,10 @@ img {
    width: 100%;
 }
 
+        .map-location {
+            height: 100%;
+            width:100%;
+        }
 
 .jtron {
   margin-left: 50px;
@@ -98,6 +113,23 @@ img {
     margin:5px;
     background-color: #fff;
 }
+<<<<<<< HEAD
+/* 
+.teams{
+    text-align: center;
+} */
+/* img {
+    margin-left: 10px;
+    height: 180px;
+    width: 180px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+=======
+} */ 
+=======
 
 #todaysScores {
     margin: 10px;
@@ -111,3 +143,4 @@ img {
 .name {
     text-align: center;
 }
+>>>>>>> cf73bc836b1c11c669640061ab7a804f0b9b1eb2

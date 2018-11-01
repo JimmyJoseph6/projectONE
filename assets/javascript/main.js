@@ -135,6 +135,20 @@ $(function() {
             $('#images').append(image);    
         }
 
+
+            //on click function
+        $(document).on('click','.logos',function(){
+            console.log($(this).data('team'))
+        })
+    
+
+        //on click function
+        $(document).on('click','.logos',function(){
+            console.log($(this).data('team'))
+        }) 
+        
+        
+
     
         //ON CLICK FUNCTION////////////////////////////////////$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
         $(document).on('click', '.logos' ,function(){
@@ -217,14 +231,7 @@ $(function() {
 
                     function initialize() {
 
-                        var center = new google.maps.LatLng(nbaLat, nbaLong);
-                        map = new google.maps.Map(document.getElementById('map'), {
-                            center: center,
-                            zoom: 13
-                        });
-
-                        var request = {
-                        location: center,
+                        var center =  center,
                         radius: 8000,
                         types: ['bar', 'restaurant']
                         };
@@ -242,7 +249,14 @@ $(function() {
                                 createMarker(results[i]);
                             }
                         }
-                    }
+                    }new google.maps.LatLng(nbaLat, nbaLong);
+                        map = new google.maps.Map(document.getElementById('map'), {
+                            center: center,
+                            zoom: 13
+                        });
+
+                        var request = {
+                        location:
 
                     function createMarker(place) {
 
